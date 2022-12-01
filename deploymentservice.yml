@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: tejas:latest
+        image: rohinimali/alpine
         ports:
         - containerPort: 3000
         
@@ -35,4 +35,4 @@ spec:
   - protocol: TCP
     port: 5000
     targetPort: 3000
-    nodePort: 31110
+    nodePort: 31111
